@@ -28,13 +28,13 @@ async function handleSubmit() {
             I'm always open to interesting conversations.
           </p>
           <div class="contact-info reveal reveal-delay-3">
-            <a href="mailto:alex@example.com" class="contact-email">
-              alex@example.com
+            <a href="mailto:sabeehedu@gmail.com" class="contact-email">
+              sabeehedu@gmail.com
             </a>
             <div class="social-links">
-              <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://github.com/sabeehedu" target="_blank" rel="noopener">GitHub</a>
+              <!-- <a href="https://twitter.com/sabeeh" target="_blank" rel="noopener">Twitter</a> -->
+              <a href="https://linkedin.com/in/sabeeh-sheikh-318aa1214" target="_blank" rel="noopener">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ async function handleSubmit() {
   </section>
   <footer class="footer">
     <div class="container footer-inner">
-      <span>© 2025 Alex. Built with Vue 3 + TypeScript.</span>
+      <span>© 2025 Sabeeh. Built with Vue 3 + TypeScript.</span>
       <span>Deployed on Vercel.</span>
     </div>
   </footer>

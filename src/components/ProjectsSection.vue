@@ -4,50 +4,50 @@ import type { Project } from '../types'
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Lumino Design System',
-    description: 'A comprehensive design system with 80+ accessible components, built for enterprise-scale Vue applications.',
-    tags: ['Vue 3', 'TypeScript', 'Storybook', 'WCAG'],
+    title: 'IoT KPI Dashboard',
+    description: 'Real-time analytics dashboard for monitoring IoT device performance. Visualizes high-frequency data using dynamic charts and live updates.',
+    tags: ['Vue.js', 'TypeScript', 'Pinia', 'ApexCharts'],
     year: '2024',
     link: 'https://github.com',
   },
   {
     id: 2,
-    title: 'Orbit Analytics',
-    description: 'Real-time data dashboard for SaaS businesses. Visualizes churn, MRR, and cohort retention with live charts.',
-    tags: ['Vue', 'D3.js', 'Node.js', 'PostgreSQL'],
+    title: 'SmartEnds Vision Module',
+    description: 'Integrated real-time camera streams with IoT sensor data to provide actionable industrial insights and automated alerting systems.',
+    tags: ['Vue.js', 'WebSockets', 'IoT Integration', 'REST API'],
     year: '2024',
     link: 'https://github.com',
   },
   {
     id: 3,
-    title: 'Forma CMS',
-    description: 'A headless content management system with a block-based editor, versioning, and multi-tenant support.',
-    tags: ['TypeScript', 'Express', 'React', 'MongoDB'],
-    year: '2023',
+    title: 'Geospatial Asset Tracker',
+    description: 'Advanced routing and tracking system utilizing HERE Maps API for dynamic route optimization and geofencing of mobile assets.',
+    tags: ['Vue.js', 'HERE Maps API', 'TypeScript', 'Geofencing'],
+    year: '2024',
     link: 'https://github.com',
   },
   {
     id: 4,
-    title: 'Wayfarer App',
-    description: 'Travel planning app that generates smart itineraries using AI. Helped 10k+ users plan their trips.',
-    tags: ['Vue', 'OpenAI API', 'Supabase', 'Tailwind'],
-    year: '2023',
+    title: 'Downlink Command Module',
+    description: 'Scheduling and management system for IoT device commands. Automates data reporting and status updates for large-scale fleets.',
+    tags: ['Vue.js', 'State Management', 'ExcelJS', 'Axios'],
+    year: '2024',
     link: 'https://github.com',
   },
   {
     id: 5,
-    title: 'Glyph Type Foundry',
-    description: 'E-commerce platform for a boutique type foundry. Includes license management and font preview tools.',
-    tags: ['Nuxt 3', 'Stripe', 'Figma API', 'Vercel'],
-    year: '2022',
+    title: 'School Management System',
+    description: 'Comprehensive educational platform frontend. Includes student record management, fee tracking, and modular reporting components.',
+    tags: ['React.js', 'MERN Stack', 'Redux', 'Material UI'],
+    year: '2023',
     link: 'https://github.com',
   },
   {
     id: 6,
-    title: 'Pulse Monitoring',
-    description: 'Uptime and performance monitoring SaaS. Sends alerts via Slack/email and tracks historical data.',
-    tags: ['TypeScript', 'Fastify', 'Redis', 'Cron'],
-    year: '2022',
+    title: 'Automated Data Scraper',
+    description: 'Custom browser extension designed to automate data extraction from educational portals, increasing data entry efficiency by 40%.',
+    tags: ['JavaScript', 'DOM Manipulation', 'Chrome API', 'Automation'],
+    year: '2023',
     link: 'https://github.com',
   },
 ]
@@ -58,7 +58,7 @@ const projects: Project[] = [
     <div class="container">
       <div class="section-header">
         <div class="section-label reveal">Selected work</div>
-        <h2 class="section-title reveal reveal-delay-1">Projects I've built.</h2>
+        <h2 class="section-title reveal reveal-delay-1">Professional Projects.</h2>
       </div>
 
       <div class="projects-grid">
@@ -90,6 +90,7 @@ const projects: Project[] = [
 </template>
 
 <style scoped>
+/* Keeping your existing styles as they are well-structured */
 .projects {
   padding: 8rem 2rem;
 }
@@ -129,6 +130,8 @@ const projects: Project[] = [
   padding: 2rem;
   transition: background 0.2s;
   cursor: default;
+  display: flex;
+  flex-direction: column;
 }
 .project-card:hover { background: var(--bg-secondary); }
 .project-top {
@@ -165,7 +168,7 @@ const projects: Project[] = [
   line-height: 1.7;
   margin-bottom: 1.5rem;
   font-weight: 300;
-  flex: 1;
+  flex: 1; /* This ensures all cards have consistent alignment even with different text lengths */
 }
 .project-tags {
   display: flex;

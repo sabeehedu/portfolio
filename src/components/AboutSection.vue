@@ -42,10 +42,10 @@ const stats = [
             type design, or experimenting with generative art.
           </p>
           <div class="about-links">
-            <a href="https://github.com" target="_blank" rel="noopener" class="about-link">
+            <a href="https://github.com/sabeeh" target="_blank" rel="noopener" class="about-link">
               GitHub ↗
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener" class="about-link">
+            <a href="https://linkedin.com/in/sabeeh-sheikh-318aa1214" target="_blank" rel="noopener" class="about-link">
               LinkedIn ↗
             </a>
             <a href="/resume.pdf" download class="about-link">

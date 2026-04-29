@@ -27,7 +27,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   <nav :class="['navbar', { scrolled }]">
     <div class="nav-inner">
       <a class="nav-logo" href="#hero" @click.prevent="scrollTo('hero')">
-        <span class="logo-dot" />Alex<span class="accent">.</span>
+        <span class="logo-dot" />Sabeeh<span class="accent">.</span>
       </a>
 
       <div class="nav-links desktop">
